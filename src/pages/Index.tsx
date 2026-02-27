@@ -2,7 +2,7 @@ import { useState, useRef, useCallback } from "react";
 import ReactMarkdown from "react-markdown";
 import { toast } from "sonner";
 
-const WORKER_URL = "https://YOUR-WORKER.workers.dev";
+const WORKER_URL = "https://idea-carnage-worker.ideacarnage.workers.dev";
 
 const Index = () => {
   const [idea, setIdea] = useState("");
